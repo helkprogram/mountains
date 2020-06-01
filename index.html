@@ -29,6 +29,7 @@
             </ul>
           </nav>
           <a href="#" class="header-top__btn">call us</a>
+          <a class="menu__btn" href="#"><span></span></a>
         </div>
       </div>
     </div>
@@ -65,11 +66,11 @@
     </div>
   </section>
   <section class="journal">
-    <div class="container container--width-grid">
+    <div class="container">
       <h2 class="title">our journal</h2>
-      <div class="journal__items">
+      <div class="journal__items journal__items--slider">
         <div class="journal__item">
-          <img class="journal__img" src="img/journal-img-1.jpg" alt="">
+          <div class="journal__img"><img src="img/journal-img-1.jpg" alt=""></div>
           <div class="journal__text">
             <div class="journal__text-name">LOVE</div>
             <div class="journal__text-title">
@@ -83,7 +84,7 @@
           </div>
         </div>
         <div class="journal__item journal__item">
-          <img class="journal__img journal__img--reverse" src="img/journal-img-2.jpg" alt="">
+          <div class="journal__img journal__img--reverse"><img src="img/journal-img-2.jpg" alt=""></div>
           <div class="journal__text">
             <div class="journal__text-name">TREE</div>
             <div class="journal__text-title">
@@ -97,7 +98,7 @@
           </div>
         </div>
         <div class="journal__item journal__item--column">
-          <img class="journal__img" src="img/journal-img-3.jpg" alt="">
+          <div class="journal__img"><img src="img/journal-img-3.jpg" alt=""></div>
           <div class="journal__text">
             <div class="journal__text-name">WATER</div>
             <div class="journal__text-title">
@@ -146,7 +147,7 @@
           </div>
         </li>
         <li class="work__item">
-          <div class="work__image"><img src="img/work-list.png" alt=""></div>
+          <div class="work__image"><img src="img/work-profile.png" alt=""></div>
           <div class="work__text">
             <div class="work__text-title">Lorem ipsum dolor sit</div>
             <div class="work__text-description">
@@ -155,7 +156,7 @@
           </div>
         </li>
         <li class="work__item">
-          <div class="work__image"><img src="img/work-list.png" alt=""></div>
+          <div class="work__image"><img src="img/work-book.png" alt=""></div>
           <div class="work__text">
             <div class="work__text-title">Lorem ipsum dolor sit</div>
             <div class="work__text-description">
@@ -164,7 +165,7 @@
           </div>
         </li>
         <li class="work__item">
-          <div class="work__image"><img src="img/work-list.png" alt=""></div>
+          <div class="work__image"><img src="img/work-check.png" alt=""></div>
           <div class="work__text">
             <div class="work__text-title">Lorem ipsum dolor sit</div>
             <div class="work__text-description">
@@ -177,103 +178,113 @@
   </section>
   <section class="travel">
     <div class="container">
-      <div class="trave__title title">
+      <div class="travel__title title">
         TRAVEL WITH US
       </div>
       <ul class="travel__list">
-        <li class="travel__item" style="background-image: url(img/travel-item-1.jpg);">
-          <div class="rating">
-            <div class="rating__item rating__item--active" data-rate="1"></div>
-            <div class="rating__item rating__item--active" data-rate="2"></div>
-            <div class="rating__item rating__item--active" data-rate="3"></div>
-            <div class="rating__item rating__item--active" data-rate="4"></div>
-            <div class="rating__item" data-rate="5"></div>
-          </div>
-          <div class="travel__text">
-            <div class="travel__title">Carpathian</div>
-            <div class="travel__subtitle">
-              Lorem ipsum dolor si amet, consectetur
+        <li class="travel__item">
+          <div class="travel__item-wrapper" style="background-image: url(img/travel-item-1.jpg);">
+            <div class="rating">
+              <div class="rating__item rating__item--active" data-rate="1"></div>
+              <div class="rating__item rating__item--active" data-rate="2"></div>
+              <div class="rating__item rating__item--active" data-rate="3"></div>
+              <div class="rating__item rating__item--active" data-rate="4"></div>
+              <div class="rating__item" data-rate="5"></div>
             </div>
-          </div>
-          <div class="travel__price">
-            <div class="travel__price--old">3150$</div>
-            <div class="travel__price--new">$793</div>
+            <div class="travel__text">
+              <div class="travel__title">Carpathian</div>
+              <div class="travel__subtitle">
+                Lorem ipsum dolor si amet, consectetur
+              </div>
+            </div>
+            <div class="travel__price">
+              <div class="travel__price--old">3150$</div>
+              <div class="travel__price--new">$793</div>
+            </div>
           </div>
         </li>
-        <li class="travel__item" style="background-image: url(img/travel-item-2.jpg);">
-          <div class="rating">
-            <div class="rating__item rating__item--active" data-rate="1"></div>
-            <div class="rating__item rating__item--active" data-rate="2"></div>
-            <div class="rating__item rating__item--active" data-rate="3"></div>
-            <div class="rating__item rating__item--active" data-rate="4"></div>
-            <div class="rating__item rating__item--active" data-rate="5"></div>
-          </div>
-          <div class="travel__text">
-            <div class="travel__title">Alps</div>
-            <div class="travel__subtitle">
-              Lorem ipsum dolor si amet, consectetur
+        <li class="travel__item">
+          <div class="travel__item-wrapper" style="background-image: url(img/travel-item-2.jpg);">
+            <div class="rating">
+              <div class="rating__item rating__item--active" data-rate="1"></div>
+              <div class="rating__item rating__item--active" data-rate="2"></div>
+              <div class="rating__item rating__item--active" data-rate="3"></div>
+              <div class="rating__item rating__item--active" data-rate="4"></div>
+              <div class="rating__item rating__item--active" data-rate="5"></div>
             </div>
-          </div>
-          <div class="travel__price">
-            <div class="travel__price--old">3150$</div>
-            <div class="travel__price--new">$1893</div>
+            <div class="travel__text">
+              <div class="travel__title">Alps</div>
+              <div class="travel__subtitle">
+                Lorem ipsum dolor si amet, consectetur
+              </div>
+            </div>
+            <div class="travel__price">
+              <div class="travel__price--old">3150$</div>
+              <div class="travel__price--new">$1893</div>
+            </div>
           </div>
         </li>
-        <li class="travel__item" style="background-image: url(img/travel-item-3.jpg);">
-          <div class="rating">
-            <div class="rating__item rating__item--active" data-rate="1"></div>
-            <div class="rating__item rating__item--active" data-rate="2"></div>
-            <div class="rating__item rating__item--active" data-rate="3"></div>
-            <div class="rating__item rating__item--active" data-rate="4"></div>
-            <div class="rating__item rating__item--active" data-rate="5"></div>
-          </div>
-          <div class="travel__text">
-            <div class="travel__title">Pyrenees</div>
-            <div class="travel__subtitle">
-              Lorem ipsum dolor si amet, consectetur
+        <li class="travel__item">
+          <div class="travel__item-wrapper" style="background-image: url(img/travel-item-3.jpg);">
+            <div class="rating">
+              <div class="rating__item rating__item--active" data-rate="1"></div>
+              <div class="rating__item rating__item--active" data-rate="2"></div>
+              <div class="rating__item rating__item--active" data-rate="3"></div>
+              <div class="rating__item rating__item--active" data-rate="4"></div>
+              <div class="rating__item rating__item--active" data-rate="5"></div>
             </div>
-          </div>
-          <div class="travel__price">
-            <div class="travel__price--old">3150$</div>
-            <div class="travel__price--new">$2593</div>
+            <div class="travel__text">
+              <div class="travel__title">Pyrenees</div>
+              <div class="travel__subtitle">
+                Lorem ipsum dolor si amet, consectetur
+              </div>
+            </div>
+            <div class="travel__price">
+              <div class="travel__price--old">3150$</div>
+              <div class="travel__price--new">$2593</div>
+            </div>
           </div>
         </li>
-        <li class="travel__item" style="background-image: url(img/travel-item-4.jpg);">
-          <div class="rating">
-            <div class="rating__item rating__item--active" data-rate="1"></div>
-            <div class="rating__item rating__item--active" data-rate="2"></div>
-            <div class="rating__item rating__item--active" data-rate="3"></div>
-            <div class="rating__item rating__item--active" data-rate="4"></div>
-            <div class="rating__item rating__item--active" data-rate="5"></div>
-          </div>
-          <div class="travel__text">
-            <div class="travel__title">Rocky</div>
-            <div class="travel__subtitle">
-              Lorem ipsum dolor si amet, consectetur
+        <li class="travel__item">
+          <div class="travel__item-wrapper" style="background-image: url(img/travel-item-4.jpg);">
+            <div class="rating">
+              <div class="rating__item rating__item--active" data-rate="1"></div>
+              <div class="rating__item rating__item--active" data-rate="2"></div>
+              <div class="rating__item rating__item--active" data-rate="3"></div>
+              <div class="rating__item rating__item--active" data-rate="4"></div>
+              <div class="rating__item rating__item--active" data-rate="5"></div>
             </div>
-          </div>
-          <div class="travel__price">
-            <div class="travel__price--old">3150$</div>
-            <div class="travel__price--new">$2123</div>
+            <div class="travel__text">
+              <div class="travel__title">Rocky</div>
+              <div class="travel__subtitle">
+                Lorem ipsum dolor si amet, consectetur
+              </div>
+            </div>
+            <div class="travel__price">
+              <div class="travel__price--old">3150$</div>
+              <div class="travel__price--new">$2123</div>
+            </div>
           </div>
         </li>
-        <li class="travel__item" style="background-image: url(img/travel-item-5.jpg);">
-          <div class="rating">
-            <div class="rating__item rating__item--active" data-rate="1"></div>
-            <div class="rating__item rating__item--active" data-rate="2"></div>
-            <div class="rating__item rating__item--active" data-rate="3"></div>
-            <div class="rating__item" data-rate="4"></div>
-            <div class="rating__item" data-rate="5"></div>
-          </div>
-          <div class="travel__text">
-            <div class="travel__title">Kavkaz</div>
-            <div class="travel__subtitle">
-              Lorem ipsum dolor si amet, consectetur
+        <li class="travel__item">
+          <div class="travel__item-wrapper" style="background-image: url(img/travel-item-5.jpg);">
+            <div class="rating">
+              <div class="rating__item rating__item--active" data-rate="1"></div>
+              <div class="rating__item rating__item--active" data-rate="2"></div>
+              <div class="rating__item rating__item--active" data-rate="3"></div>
+              <div class="rating__item" data-rate="4"></div>
+              <div class="rating__item" data-rate="5"></div>
             </div>
-          </div>
-          <div class="travel__price">
-            <div class="travel__price--old">3150$</div>
-            <div class="travel__price--new">$593</div>
+            <div class="travel__text">
+              <div class="travel__title">Kavkaz</div>
+              <div class="travel__subtitle">
+                Lorem ipsum dolor si amet, consectetur
+              </div>
+            </div>
+            <div class="travel__price">
+              <div class="travel__price--old">3150$</div>
+              <div class="travel__price--new">$593</div>
+            </div>
           </div>
         </li>
       </ul>
@@ -283,12 +294,18 @@
     <div class="container">
       <div class="gallery__title title">Gallery</div>
       <div class="gallery__wrapper">
-        <img src="img/gallery-item-1.jpg" alt="">
-        <img src="img/gallery-item-3.jpg" alt="">
-        <img src="img/gallery-item-5.jpg" alt="">
-        <img src="img/gallery-item-2.jpg" alt="">
-        <img src="img/gallery-item-4.jpg" alt="">
-        <img src="img/gallery-item-6.jpg" alt="">
+        <div class="gallery__wrapper-row">
+          <div class="gallery__item"><img src="img/gallery-item-1.jpg" alt=""></div>
+          <div class="gallery__item"><img src="img/gallery-item-3.jpg" alt=""></div>
+          <div class="gallery__item"><img src="img/gallery-item-5.jpg" alt=""></div>
+        </div>
+        <div class="gallery__wrapper-row">
+          <div class="gallery__item"><img src="img/gallery-item-2.jpg" alt=""></div>
+          <div class="gallery__item gallery__item-pos"><img src="img/gallery-item-4.jpg" alt=""></div>
+          <div class="gallery__item"><img src="img/gallery-item-6.jpg" alt=""></div>
+        </div>
+
+
       </div>
     </div>
   </section>
